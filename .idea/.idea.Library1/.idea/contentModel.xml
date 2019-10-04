@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Koteuko\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Koteuko\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_Library1.-974107854.00" t="ExcludeRecursive" />
+    <e p="E:\Library" t="IncludeFlat">
+      <e p="Library" t="IncludeRecursive">
+        <e p="AddBook.cs" t="Include" />
+        <e p="AddBook.Designer.cs" t="Include" />
+        <e p="AddBook.resx" t="Include" />
+        <e p="AddMagazine.cs" t="Include" />
+        <e p="AddMagazine.Designer.cs" t="Include" />
+        <e p="AddMagazine.resx" t="Include" />
+        <e p="AddNewspaper.cs" t="Include" />
+        <e p="AddNewspaper.Designer.cs" t="Include" />
+        <e p="AddNewspaper.resx" t="Include" />
+        <e p="App.config" t="Include" />
+        <e p="Autorization.cs" t="Include" />
+        <e p="Autorization.Designer.cs" t="Include" />
+        <e p="Autorization.resx" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Book.cs" t="Include" />
+        <e p="book.ico" t="Include" />
+        <e p="ChooseGivenOutBooks.cs" t="Include" />
+        <e p="ChooseGivenOutBooks.Designer.cs" t="Include" />
+        <e p="ChooseGivenOutBooks.resx" t="Include" />
+        <e p="InfoPublication.cs" t="Include" />
+        <e p="InfoPublication.Designer.cs" t="Include" />
+        <e p="InfoPublication.resx" t="Include" />
+        <e p="InfoReader.cs" t="Include" />
+        <e p="InfoReader.Designer.cs" t="Include" />
+        <e p="InfoReader.resx" t="Include" />
+        <e p="Library.csproj" t="IncludeRecursive" />
+        <e p="Magazine.cs" t="Include" />
+        <e p="MenuAdmin.cs" t="Include" />
+        <e p="MenuAdmin.Designer.cs" t="Include" />
+        <e p="MenuAdmin.resx" t="Include" />
+        <e p="MenuReader.cs" t="Include" />
+        <e p="MenuReader.Designer.cs" t="Include" />
+        <e p="MenuReader.resx" t="Include" />
+        <e p="Newspaper.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+          <e p="Settings.Designer.cs" t="Include" />
+          <e p="Settings.settings" t="Include" />
+        </e>
+        <e p="Publication.cs" t="Include" />
+        <e p="Reader.cs" t="Include" />
+        <e p="Registration.cs" t="Include" />
+        <e p="Registration.Designer.cs" t="Include" />
+        <e p="Registration.resx" t="Include" />
+        <e p="RegistrationNewReader.cs" t="Include" />
+        <e p="RegistrationNewReader.Designer.cs" t="Include" />
+        <e p="RegistrationNewReader.resx" t="Include" />
+        <e p="ReturnBooks.cs" t="Include" />
+        <e p="ReturnBooks.Designer.cs" t="Include" />
+        <e p="ReturnBooks.resx" t="Include" />
+      </e>
+      <e p="Library1.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

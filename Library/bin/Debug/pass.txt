@@ -1,0 +1,3 @@
+admin|admin
+user|user
+icerock666|251199
