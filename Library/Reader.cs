@@ -3,21 +3,31 @@ using System.Collections.Generic;
 using System.Text;
 using System.Linq;
 using System.IO;
-using System.Xml.Linq;
+using System.Runtime.Serialization;
+using System.Xml.Serialization;
 using System.Runtime.Serialization.Formatters.Binary;
+using System.Runtime.Serialization.Json;
+using System.Windows.Forms;
 
 
 namespace Library
 {
-    [Serializable]
+    [Serializable] //xml & binary
+    [DataContract] //json
     public class Reader
         {
+            [DataMember]
             public string name;
+            [DataMember]
             public string surname;
+            [DataMember]
             public string patronymic;
+            [DataMember]
             public string phone_number;    
+            [DataMember]
             public bool acces;
             public List<DateTime> timeoftaken = new List<DateTime>();
+            [DataMember]
             public List<string> taken = new List<string>();
         public Reader(string surname, string name, string patronymic, string phone_number, string acces, string taken)
         {
@@ -37,6 +47,8 @@ namespace Library
             }
            
             }
+        public Reader()
+        { }
         public bool IsDept(List<Publication> libr)   //является ли должником
         {
             if (timeoftaken.Count == 0)
@@ -86,21 +98,61 @@ namespace Library
 
         public static void Rewrite(List<Reader> readers)
         {
-            BinaryFormatter formatter = new BinaryFormatter();
-            using (FileStream fs = new FileStream("Readers.dat", FileMode.OpenOrCreate))
+            var binaryFormatter = new BinaryFormatter();
+            using (var fs = new FileStream("Readers.dat", FileMode.OpenOrCreate))
             {
-                formatter.Serialize(fs, readers);
+                binaryFormatter.Serialize(fs, readers);
+            }
+            //Json
+            var jsonFormatter = new DataContractJsonSerializer(typeof(List<Reader>));
+ 
+            using (var fs = new FileStream("readers.json", FileMode.OpenOrCreate))
+            {
+                jsonFormatter.WriteObject(fs, readers);
+            }
+            //Xml
+            var XmlFormatter = new XmlSerializer(typeof(List<Reader>));
+            
+            using (var fs = new FileStream("readers.xml", FileMode.OpenOrCreate))
+            {
+                XmlFormatter.Serialize(fs, readers);
             }
         }
 
             public static List<Reader> Input()
         {
-            using (FileStream fs = new FileStream("Readers.dat", FileMode.OpenOrCreate))
+            
+            //Json
+            using (var fs = new FileStream("readers.json", FileMode.OpenOrCreate))
             {
-                BinaryFormatter formatter = new BinaryFormatter();
-                List<Reader> deserilizePeople = (List<Reader>)formatter.Deserialize(fs);                              
-                return deserilizePeople;
+                var stringBuilder = new StringBuilder();
+                stringBuilder.Append("Json deserialization: ").AppendLine();
+                var jsonFormatter = new DataContractJsonSerializer(typeof(List<Reader>));
+                var jsonReaders = (List<Reader>)jsonFormatter.ReadObject(fs);
+ 
+                foreach (var r in jsonReaders)
+                {
+                    stringBuilder.Append(r.Show()).AppendLine();
+                }
+
+                MessageBox.Show(stringBuilder.ToString());
             }
+            //Xml
+            using (var fs = new FileStream("readers.xml", FileMode.OpenOrCreate))
+            {
+                var stringBuilder = new StringBuilder();
+                stringBuilder.Append("Xml deserialization: ").AppendLine();
+                var XmlFormatter = new XmlSerializer(typeof(List<Reader>));
+                var XmlReaders = (List<Reader>)XmlFormatter.Deserialize(fs);
+                System.Console.WriteLine("Xml deserialization: ");
+                foreach (var r in XmlReaders)
+                {
+                    stringBuilder.Append(r.Show()).AppendLine();
+                }
+                MessageBox.Show(stringBuilder.ToString());
+            }
+            
+            //Txt
             /*
             using (StreamReader fileIn = new StreamReader(@"readers.txt", System.Text.Encoding.Default))
             {                
@@ -114,6 +166,12 @@ namespace Library
                 return array;
             }
             */
+            //Binary
+            using (var fs = new FileStream("Readers.dat", FileMode.OpenOrCreate))
+            {
+                var binaryFormatter = new BinaryFormatter();     
+                return (List<Reader>)binaryFormatter.Deserialize(fs); 
+            }
         }
         
     }

@@ -17,7 +17,7 @@ namespace Library
             List<Publication> libr = new List<Publication>(); //создание каталога из имеющихся уже книг
             libr = Publication.Input();       
             List<Reader> readers = new List<Reader>(); //создание списка существующих читателей
-            readers = Reader.Input();            
+            readers = Reader.Input();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);       
             Autorization form2 = new Autorization();
