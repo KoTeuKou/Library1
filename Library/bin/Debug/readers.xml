@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<ArrayOfReader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Reader>
+    <name>Петр</name>
+    <surname>Петров</surname>
+    <patronymic>Петрович</patronymic>
+    <phone_number>88005553535</phone_number>
+    <acces>false</acces>
+    <timeoftaken />
+    <taken />
+  </Reader>
+  <Reader>
+    <name>Василий</name>
+    <surname>Васильев</surname>
+    <patronymic>Васильевич</patronymic>
+    <phone_number>89875554132</phone_number>
+    <acces>false</acces>
+    <timeoftaken />
+    <taken />
+  </Reader>
+  <Reader>
+    <name>Сидр</name>
+    <surname>Сидоров</surname>
+    <patronymic>Сидорович</patronymic>
+    <phone_number>89270927377</phone_number>
+    <acces>false</acces>
+    <timeoftaken />
+    <taken />
+  </Reader>
+  <Reader>
+    <name>Дмитрий</name>
+    <surname>Дмитриев</surname>
+    <patronymic>Дмитриевич</patronymic>
+    <phone_number>89271347924</phone_number>
+    <acces>false</acces>
+    <timeoftaken />
+    <taken />
+  </Reader>
+  <Reader>
+    <name>Тимофей</name>
+    <surname>Тимофеев</surname>
+    <patronymic>Тимофеевич</patronymic>
+    <phone_number>89872641352</phone_number>
+    <acces>false</acces>
+    <timeoftaken />
+    <taken />
+  </Reader>
+  <Reader>
+    <name>Никита</name>
+    <surname>Никитин</surname>
+    <patronymic>Никитич</patronymic>
+    <phone_number>89271347721</phone_number>
+    <acces>true</acces>
+    <timeoftaken />
+    <taken />
+  </Reader>
+  <Reader>
+    <name>Виктор</name>
+    <surname>Васильев</surname>
+    <patronymic>Викторович</patronymic>
+    <phone_number>89234446737</phone_number>
+    <acces>false</acces>
+    <timeoftaken />
+    <taken />
+  </Reader>
+</ArrayOfReader>
