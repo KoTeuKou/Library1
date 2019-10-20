@@ -20,17 +20,17 @@ namespace Library
             readers = Reader.Input();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);       
-            Autorization form2 = new Autorization();
-            MenuReader form1 = new MenuReader();
-            MenuAdmin form3 = new MenuAdmin();           
-            form1.publications = libr;
-            form3.publications = libr;           
-            form3.readers = readers;
-            Application.Run(form2);
-            if (form2.DialogResult == DialogResult.OK)                
-                Application.Run(form1);
-            else if (form2.DialogResult == DialogResult.No)
-                Application.Run(form3);
+            Autorization authorize = new Autorization();
+            MenuReader readerMenu = new MenuReader();
+            MenuAdmin adminMenu = new MenuAdmin();           
+            readerMenu.publications = libr;
+            adminMenu.publications = libr;           
+            adminMenu.readers = readers;
+            Application.Run(authorize);
+            if (authorize.DialogResult == DialogResult.OK)                
+                Application.Run(readerMenu);
+            else if (authorize.DialogResult == DialogResult.No)
+                Application.Run(adminMenu);
         }
     }
 }

@@ -1,16 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Runtime.Serialization;
 using System.Text;
 
 namespace Library
 {
-    [Serializable]
+    [Serializable] //xml & binary
+    [DataContract] //json
     public  class Book : Publication
      {            
+         [DataMember]
         public new List<string> id = new List<string>();
+        [DataMember]
        public string genre;
+       [DataMember]
        public short date_of_written;
-        public Book(string tittle, string publisher, string[] authors,string genre, short date_of_written, int quantity_available, string rare_literature)
+
+       public Book()
+       {}
+
+       public Book(string tittle, string publisher, string[] authors,string genre, short date_of_written, int quantity_available, string rare_literature)
                                         : base(tittle, publisher, authors, quantity_available, rare_literature)
         {            
             

@@ -40,3 +40,6 @@ L:\Library\Library\obj\Debug\Library.csproj.GenerateResource.Cache
 L:\Library\Library\obj\Debug\Library.csproj.CoreCompileInputs.cache
 L:\Library\Library\obj\Debug\Library.exe
 L:\Library\Library\obj\Debug\Library.pdb
+E:\Library\Library\bin\Debug\Newtonsoft.Json.dll
+E:\Library\Library\bin\Debug\Newtonsoft.Json.xml
+E:\Library\Library\obj\Debug\Library.csproj.CopyComplete

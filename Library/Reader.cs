@@ -121,8 +121,9 @@ namespace Library
 
             public static List<Reader> Input()
         {
-            
+            /*
             //Json
+            
             using (var fs = new FileStream("readers.json", FileMode.OpenOrCreate))
             {
                 var stringBuilder = new StringBuilder();

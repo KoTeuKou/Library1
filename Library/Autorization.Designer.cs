@@ -1,4 +1,5 @@
-﻿namespace Library
+﻿
+namespace Library
 {
     partial class Autorization
     {

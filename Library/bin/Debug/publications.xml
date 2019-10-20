@@ -1,0 +1,331 @@
+<?xml version="1.0"?>
+<ArrayOfPublication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Publication xsi:type="Book">
+    <tittle>Сборник задач и упражнений по математическому анализу</tittle>
+    <publisher>Астрель</publisher>
+    <authors>
+      <string>Б.П.Демидович</string>
+    </authors>
+    <id>
+      <string>Сборник задач и упражнений по математическому анализу0</string>
+      <string>Сборник задач и упражнений по математическому анализу1</string>
+    </id>
+    <quantity_available>2</quantity_available>
+    <rare_literature>true</rare_literature>
+    <genre>сборник задач</genre>
+    <date_of_written>1997</date_of_written>
+  </Publication>
+  <Publication xsi:type="Book">
+    <tittle>451 градус по Фаренгейту</tittle>
+    <publisher>Ballantine Books</publisher>
+    <authors>
+      <string>Р.Д.Брэдбери</string>
+    </authors>
+    <id>
+      <string>451 градус по Фаренгейту0</string>
+      <string>451 градус по Фаренгейту1</string>
+      <string>451 градус по Фаренгейту2</string>
+      <string>451 градус по Фаренгейту3</string>
+      <string>451 градус по Фаренгейту4</string>
+      <string>451 градус по Фаренгейту5</string>
+      <string>451 градус по Фаренгейту6</string>
+      <string>451 градус по Фаренгейту7</string>
+    </id>
+    <quantity_available>8</quantity_available>
+    <rare_literature>false</rare_literature>
+    <genre>фантастика</genre>
+    <date_of_written>1953</date_of_written>
+  </Publication>
+  <Publication xsi:type="Book">
+    <tittle>Война и Мир</tittle>
+    <publisher>Русский вестник</publisher>
+    <authors>
+      <string>Л.Н.Толстой</string>
+    </authors>
+    <id>
+      <string>Война и Мир0</string>
+      <string>Война и Мир1</string>
+      <string>Война и Мир2</string>
+      <string>Война и Мир3</string>
+    </id>
+    <quantity_available>4</quantity_available>
+    <rare_literature>true</rare_literature>
+    <genre>роман</genre>
+    <date_of_written>1869</date_of_written>
+  </Publication>
+  <Publication xsi:type="Book">
+    <tittle>Три товарища</tittle>
+    <publisher>Little,Brown &amp; Company</publisher>
+    <authors>
+      <string>Э.М.Ремарк</string>
+    </authors>
+    <id>
+      <string>Три товарища0</string>
+      <string>Три товарища1</string>
+      <string>Три товарища2</string>
+      <string>Три товарища3</string>
+    </id>
+    <quantity_available>4</quantity_available>
+    <rare_literature>false</rare_literature>
+    <genre>роман</genre>
+    <date_of_written>1932</date_of_written>
+  </Publication>
+  <Publication xsi:type="Book">
+    <tittle>Двенадцать стульев</tittle>
+    <publisher>Земля и фабрика</publisher>
+    <authors>
+      <string>И.Ильф</string>
+      <string>Е.Петров</string>
+    </authors>
+    <id>
+      <string>Двенадцать стульев0</string>
+      <string>Двенадцать стульев1</string>
+      <string>Двенадцать стульев2</string>
+      <string>Двенадцать стульев3</string>
+      <string>Двенадцать стульев4</string>
+      <string>Двенадцать стульев5</string>
+      <string>Двенадцать стульев6</string>
+      <string>Двенадцать стульев7</string>
+      <string>Двенадцать стульев8</string>
+      <string>Двенадцать стульев9</string>
+      <string>Двенадцать стульев10</string>
+    </id>
+    <quantity_available>11</quantity_available>
+    <rare_literature>false</rare_literature>
+    <genre>роман</genre>
+    <date_of_written>1927</date_of_written>
+  </Publication>
+  <Publication xsi:type="Magazine">
+    <tittle>Москва</tittle>
+    <publisher>Союз писателей России</publisher>
+    <authors>
+      <string>М.А.Булгаков</string>
+    </authors>
+    <id>
+      <string>Москва0</string>
+    </id>
+    <quantity_available>1</quantity_available>
+    <rare_literature>true</rare_literature>
+    <release_num>11</release_num>
+  </Publication>
+  <Publication xsi:type="Magazine">
+    <tittle>Новый Вестник Европы</tittle>
+    <publisher>Союз писателей России</publisher>
+    <authors>
+      <string>Е.Гайдар</string>
+      <string>Е.Гениева</string>
+      <string>Л.Лопатников</string>
+      <string />
+    </authors>
+    <id>
+      <string>Новый Вестник Европы0</string>
+      <string>Новый Вестник Европы1</string>
+      <string>Новый Вестник Европы2</string>
+      <string>Новый Вестник Европы3</string>
+      <string>Новый Вестник Европы4</string>
+      <string>Новый Вестник Европы5</string>
+      <string>Новый Вестник Европы6</string>
+      <string>Новый Вестник Европы7</string>
+      <string>Новый Вестник Европы8</string>
+      <string>Новый Вестник Европы9</string>
+    </id>
+    <quantity_available>10</quantity_available>
+    <rare_literature>false</rare_literature>
+    <release_num>1</release_num>
+  </Publication>
+  <Publication xsi:type="Magazine">
+    <tittle>Юность</tittle>
+    <publisher>Правда</publisher>
+    <authors>
+      <string>А.Ахматова</string>
+      <string>Р.Рождественский</string>
+      <string>Б.Ахмадулина</string>
+      <string>Н.Рубцов</string>
+      <string />
+    </authors>
+    <id>
+      <string>Юность0</string>
+      <string>Юность1</string>
+      <string>Юность2</string>
+    </id>
+    <quantity_available>3</quantity_available>
+    <rare_literature>false</rare_literature>
+    <release_num>4</release_num>
+  </Publication>
+  <Publication xsi:type="Magazine">
+    <tittle>Новый мир</tittle>
+    <publisher>Редакция журнала "Новый мир"</publisher>
+    <authors>
+      <string>С.Аверинцев</string>
+      <string>А.Азольский</string>
+      <string>А.Архангельский</string>
+      <string />
+    </authors>
+    <id>
+      <string>Новый мир0</string>
+      <string>Новый мир1</string>
+      <string>Новый мир2</string>
+      <string>Новый мир3</string>
+      <string>Новый мир4</string>
+      <string>Новый мир5</string>
+      <string>Новый мир6</string>
+      <string>Новый мир7</string>
+      <string>Новый мир8</string>
+      <string>Новый мир9</string>
+    </id>
+    <quantity_available>10</quantity_available>
+    <rare_literature>false</rare_literature>
+    <release_num>42</release_num>
+  </Publication>
+  <Publication xsi:type="Magazine">
+    <tittle>Знамя</tittle>
+    <publisher>Правда</publisher>
+    <authors>
+      <string>М.Амелин</string>
+      <string>М.Вишневецкая</string>
+    </authors>
+    <id>
+      <string>Знамя0</string>
+      <string>Знамя1</string>
+      <string>Знамя2</string>
+      <string>Знамя3</string>
+    </id>
+    <quantity_available>4</quantity_available>
+    <rare_literature>false</rare_literature>
+    <release_num>25</release_num>
+  </Publication>
+  <Publication xsi:type="Newspaper">
+    <tittle>Аргументы и факты</tittle>
+    <publisher>АО "Аргументы и факты"</publisher>
+    <authors>
+      <string>В.Старков</string>
+      <string>Н.Зятьков</string>
+      <string>И.Черняк</string>
+    </authors>
+    <id>
+      <string>Аргументы и факты0</string>
+      <string>Аргументы и факты1</string>
+      <string>Аргументы и факты2</string>
+      <string>Аргументы и факты3</string>
+    </id>
+    <quantity_available>4</quantity_available>
+    <rare_literature>false</rare_literature>
+  </Publication>
+  <Publication xsi:type="Newspaper">
+    <tittle>Коммерсант</tittle>
+    <publisher>ИД Коммерсантъ</publisher>
+    <authors>
+      <string>М.Михайлин</string>
+      <string>С.Яковлев</string>
+      <string>В.Желонкин</string>
+    </authors>
+    <id>
+      <string>Коммерсант0</string>
+      <string>Коммерсант1</string>
+      <string>Коммерсант2</string>
+      <string>Коммерсант3</string>
+      <string>Коммерсант4</string>
+      <string>Коммерсант5</string>
+      <string>Коммерсант6</string>
+      <string>Коммерсант7</string>
+      <string>Коммерсант8</string>
+      <string>Коммерсант9</string>
+    </id>
+    <quantity_available>10</quantity_available>
+    <rare_literature>false</rare_literature>
+  </Publication>
+  <Publication xsi:type="Newspaper">
+    <tittle>Комсомольская правда</tittle>
+    <publisher>АО ИД "Комсомольская правда"</publisher>
+    <authors>
+      <string>В.Сунгоркин</string>
+    </authors>
+    <id>
+      <string>Комсомольская правда0</string>
+      <string>Комсомольская правда1</string>
+      <string>Комсомольская правда2</string>
+      <string>Комсомольская правда3</string>
+      <string>Комсомольская правда4</string>
+      <string>Комсомольская правда5</string>
+      <string>Комсомольская правда6</string>
+      <string>Комсомольская правда7</string>
+      <string>Комсомольская правда8</string>
+      <string>Комсомольская правда9</string>
+      <string>Комсомольская правда10</string>
+      <string>Комсомольская правда11</string>
+      <string>Комсомольская правда12</string>
+      <string>Комсомольская правда13</string>
+      <string>Комсомольская правда14</string>
+      <string>Комсомольская правда15</string>
+      <string>Комсомольская правда16</string>
+      <string>Комсомольская правда17</string>
+      <string>Комсомольская правда18</string>
+      <string>Комсомольская правда19</string>
+      <string>Комсомольская правда20</string>
+      <string>Комсомольская правда21</string>
+      <string>Комсомольская правда22</string>
+      <string>Комсомольская правда23</string>
+      <string>Комсомольская правда24</string>
+    </id>
+    <quantity_available>25</quantity_available>
+    <rare_literature>false</rare_literature>
+  </Publication>
+  <Publication xsi:type="Newspaper">
+    <tittle>Культура</tittle>
+    <publisher>Советская культура</publisher>
+    <authors>
+      <string>Е.Ямпольская</string>
+    </authors>
+    <id>
+      <string>Культура0</string>
+      <string>Культура1</string>
+      <string>Культура2</string>
+      <string>Культура3</string>
+      <string>Культура4</string>
+      <string>Культура5</string>
+      <string>Культура6</string>
+      <string>Культура7</string>
+      <string>Культура8</string>
+      <string>Культура9</string>
+      <string>Культура10</string>
+      <string>Культура11</string>
+      <string>Культура12</string>
+      <string>Культура13</string>
+    </id>
+    <quantity_available>14</quantity_available>
+    <rare_literature>false</rare_literature>
+  </Publication>
+  <Publication xsi:type="Newspaper">
+    <tittle>Правда</tittle>
+    <publisher>КПРФ</publisher>
+    <authors>
+      <string>М.Зимянин</string>
+      <string>В.Афанасьев</string>
+      <string>И.Фролов</string>
+    </authors>
+    <id>
+      <string>Правда0</string>
+    </id>
+    <quantity_available>1</quantity_available>
+    <rare_literature>true</rare_literature>
+  </Publication>
+  <Publication xsi:type="Book">
+    <tittle>name</tittle>
+    <publisher>publ</publisher>
+    <authors>
+      <string>auth1</string>
+      <string>auth2</string>
+    </authors>
+    <id>
+      <string>name0</string>
+      <string>name1</string>
+      <string>name2</string>
+      <string>name3</string>
+      <string>name4</string>
+    </id>
+    <quantity_available>5</quantity_available>
+    <rare_literature>false</rare_literature>
+    <genre>janre</genre>
+    <date_of_written>1999</date_of_written>
+  </Publication>
+</ArrayOfPublication>

@@ -1,13 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Runtime.Serialization;
 using System.Text;
 
 namespace Library
 {
-    [Serializable]
+    [Serializable] //xml & binary
+    [DataContract] //json
     public class Newspaper:Publication
     {
-        
+        public Newspaper()
+        {
+        }
+
         public Newspaper(string tittle, string publisher, string[] authors, int quantity_available,  string rare_literature)
                                         : base(tittle, publisher, authors, quantity_available, rare_literature)
         {          

@@ -1,13 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Runtime.Serialization;
 using System.Text;
 
 namespace Library
 {
-    [Serializable]
+    [Serializable] //xml & binary
+    [DataContract] //json
     public class Magazine:Publication
     {        
+        [DataMember]
         public short release_num;
+
+        public Magazine()
+        {
+        }
+
         public Magazine(string tittle, string publisher, string[] authors,  short release_num, int quantity_available, string rare_literature)
                                         : base(tittle, publisher, authors, quantity_available,  rare_literature)
         {
